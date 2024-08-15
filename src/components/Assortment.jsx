@@ -27,7 +27,6 @@ const Assortment = (datas) => {
             document.body.removeEventListener("click",checkV1);
         }
       }
-      //V2のチェックマークが引き継がれる
       const checkV2 = (e)=>{
         try{
             if(!refBtnV2?.current.contains(e.target)){
