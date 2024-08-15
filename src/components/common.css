@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+img{
+   width: 80px;
+   height: 90px;
+   object-fit: cover;
+}
+.yourBag{
+   margin-top: 20px;
+   text-align: center;
+}
+.clearBtnContainer{
+   text-align: center;
+}
+.clearBtn{
+   color: red;
+   border: 1px solid red;
+   height: 30px;
+   width: 200px;
+   border-radius: 5px;
+   transition: all .25s;
+}
+.clearBtn:hover{
+   scale: 1.1;
+}
+.alert{
+   text-align: center;
+   opacity: 0.6;
+}
+/* 
+=====
+Hero
+=====
+ */
+ .Hero{
+    height: 70px;
+    width: 100%;
+    background: rgb(29, 153, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .BagIcon{
+    position: relative;
+ }
+ .Counter{
+    position: absolute;
+    color: white;
+    top: -15%;
+    right: -22%;
+    z-index: 10;
+    background: rgb(133, 213, 251);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+ }
+/* 
+======
+AssortMent
+======
+*/
+.AssortmentContainer{
+   margin: 50px auto 0 auto;
+   width: 60%;
+   border-bottom: 1px solid black;
+}
+.Assortment{
+   display: flex;
+   width: 100%;
+}
+.AssortmentOutline{
+   margin-bottom: 20px;
+}
+dl{
+   margin-bottom: 3px;
+}
+button{
+   background:transparent;
+   border: none;
+   color: aqua;
+}
+.details{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 20px;
+   width: 100%;
+}
+.countup{
+   height: 100%;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.ICON{
+   font-size: 1.4rem;
+   font-weight: bold;
+   color: rgb(52, 127, 207);
+}
+.ICON:hover{
+   color: rgb(115, 234, 234);
+}
+.ICON,span{
+  height: 20px;
+}
+.active{
+   border: 1px solid aqua;
+}
+
+/* 
+======
+Accounting
+======
+*/
+.accounting{
+   width: 60%;
+   margin: 0 auto;
+}
+.accountingInfo{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+
+}
